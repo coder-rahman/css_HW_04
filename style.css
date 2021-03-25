@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+	box-sizing:border-box;
+}
+body{
+    font-family: georgia; 
+	font-size: 15px; 
+	line-height:30px;
+}
+/*Menu section start here*/
+.nav{
+    
+    background-color: #ddd;
+    display: flex;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    float: right;
+    padding:2px;
+    margin-left: 12px;
+}
+.menu li a{
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 20px;
+}
+.menu li:hover{
+    background-color: rgb(250, 243, 239);
+}
+.menu li a:hover{ 
+    color: rgb(240, 4, 3);
+}
+/*Menu section end here*/
+
+/*Text section start here*/
+#text_align{
+	line-height:50px;
+	text-align: center; 
+	color: rgb(34, 34, 71);
+}
+.head_one{
+    background: linear-gradient(to left, #33ccff 30%, #ff9966 90%);
+}
+.main_text{
+    display: flex;
+    flex-basis: 20%;
+}
+
+.sub_text_div{
+border: 2px solid salmon;
+margin: 3px;
+padding: 5px;
+}
+.div1{
+    text-align: center;
+}
+.div2{
+    text-align: left;
+}
+.div3{
+    text-align: right;
+}
+.div4{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+/*Text section end here*/
+
+/*National flag section start here*/
+.outside_centr{
+	margin:0 auto; 
+    width:50%; height:200px; 
+    background:green;
+    margin-top:60px;
+    position:relative;}
+.center{
+	height:150px;
+	width:150px; 
+	border-radius:3000px;
+	background:red;
+	margin-left:280px;
+	margin-top:25px; 
+	position:absolute
+}
+/*National flag section end here*/
+
+/*Pseudo Element Start Here */
+.h11::before{
+    content: "MD Mizanur ";
+    background-color: rgb(122, 189, 220);
+}
+.h21::after{
+    content: " Rahman";
+    background-color: rgb(240, 3, 3);
+}
+.smainele{
+    display: flex;
+    flex-basis: 45%;
+    margin: 5px;
+}
+.pseudo_class{
+    border: 2px solid red;
+}
+/*Pseudo Element End Here */
+
+/* sudo class  */
+ul:first-child {
+    background-color: rgb(245, 12, 12);
+    color: rgb(27, 175, 201);
+}
+ul:last-child{
+    background-color: yellowgreen;
+    color: white;
+}
+/* Focus in form start here  */
+input:focus{
+    color: red;
+    padding: 10px;
+}
+.headingOne{
+    text-align: center;
+    font-size: 33px;
+    background-color: lightgreen;
+}
+.over_div{
+    float: left;
+    width: 30%;
+    border: 3px solid orange;
+    padding: 2px;
+    margin: 10px;
+    height: 200px;
+    overflow: auto;
+}
+.over_div2{
+    overflow: scroll;
+}
+.over_div3{
+overflow: hidden;
+}
+span{
+    color: khaki;
+}
+#footer{
+	margin-top:7px;
+	margin-bottom:7px;
+}
+table{
+    width:80%;
+	font-size:18px;
+	margin:0 auto;
+}
+tr{
+    background-image: linear-gradient(to right, rgb(85, 189, 51) , rgb(112, 189, 220));
+    text-decoration: none;
+}
+td{
+	padding:5px;
+}
+td:hover{
+	background-color: #ddd;
+	color: black;
+}
+#hover{
+	display: flex;
+}
+.hov{
+    width: 300px;
+    height: 300px;
+    border: 4px solid rosybrown;
+    margin: auto;
+    background-color: skyblue;
+}
+.hov:hover+ .ho1{
+    background-color: rgb(0, 0, 0)
+
+}
+.hov:hover+ .ho1 + .ho3{
+    background-color: rgb(0, 0, 0)
+}
+
+
+
+
